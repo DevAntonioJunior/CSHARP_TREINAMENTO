@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCsharp07", "CursoCsharp07\CursoCsharp07.csproj", "{98B9B7CC-6201-405B-BCFA-C1FA67AEA7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulamento", "Encapsulamento\Encapsulamento.csproj", "{5001F7DE-55B3-4E39-B9C0-EC48CCD86D30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B9B7CC-6201-405B-BCFA-C1FA67AEA7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B9B7CC-6201-405B-BCFA-C1FA67AEA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B9B7CC-6201-405B-BCFA-C1FA67AEA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B9B7CC-6201-405B-BCFA-C1FA67AEA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5001F7DE-55B3-4E39-B9C0-EC48CCD86D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5001F7DE-55B3-4E39-B9C0-EC48CCD86D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5001F7DE-55B3-4E39-B9C0-EC48CCD86D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5001F7DE-55B3-4E39-B9C0-EC48CCD86D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA5C7006-B471-4891-8907-D014D1D6C875}
+	EndGlobalSection
+EndGlobal
