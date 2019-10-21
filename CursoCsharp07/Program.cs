@@ -98,7 +98,8 @@ namespace CursoCSharp
                 //Api
                 { " Primeiro Arquivo - Usando API",PrimeiroArquivo.Executar },
                 { " Lendo Arquivo - Usando API",LendoArquivos.Executar },
-                { " FILE INFO - Usando API",ExemploFileInfo.Executar }
+                { " FILE INFO - Usando API",ExemploFileInfo.Executar },
+                { " DIRETORIOS - Usando API",Diretorios.Executar }
                 
 
 
