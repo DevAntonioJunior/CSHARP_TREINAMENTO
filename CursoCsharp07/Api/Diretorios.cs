@@ -6,5 +6,9 @@ namespace CursoCsharp07.Api
 {
     class Diretorios
     {
+        public static void Executar() {
+
+
+        }
     }
 }
