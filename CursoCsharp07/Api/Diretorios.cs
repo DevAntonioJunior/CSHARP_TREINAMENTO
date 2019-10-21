@@ -8,7 +8,8 @@ namespace CursoCsharp07.Api
     {
         public static void Executar() {
 
-
+            Console.WriteLine("");
+            
         }
     }
 }
