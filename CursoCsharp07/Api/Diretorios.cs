@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace CursoCsharp07.Api
@@ -8,7 +9,20 @@ namespace CursoCsharp07.Api
     {
         public static void Executar() {
 
-            Console.WriteLine("teste");
+            var novoDir = @"-/PastaCsharp".ParseHome();
+            var novoDirDestino = @"~/PastaCsharpDestino".ParseHome(); 
+            var dirProjeto = @"~/source/repos/CursoCsharp".ParseHome();
+
+            if (Directory.Exists(novoDir)) {
+                Directory.Delete(novoDir, true); 
+            }
+            if (Directory.Exists(novoDirDestino)) {
+                Directory.Delete(novoDirDestino, true); 
+
+
+            }
+            Directory.CreateDirectory(novoDir);
+            Console.WriteLine(Directory.GetCreationTime(novoDir)); 
             
         }
     }
