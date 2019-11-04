@@ -9,7 +9,7 @@ namespace CursoCsharp07.Api
     {
         public static void Executar() {
 
-            var novoDir = @"-/PastaCsharp".ParseHome();
+            var novoDir = @"-/PastaCsharp07".ParseHome();
             var novoDirDestino = @"~/PastaCsharpDestino".ParseHome(); 
             var dirProjeto = @"~/source/repos/CursoCsharp".ParseHome();
 
@@ -22,8 +22,23 @@ namespace CursoCsharp07.Api
 
             }
             Directory.CreateDirectory(novoDir);
-            Console.WriteLine(Directory.GetCreationTime(novoDir)); 
-            
+            Console.WriteLine(Directory.GetCreationTime(novoDir));
+
+
+            Console.WriteLine("== Pastas ================");
+            var pastas = Directory.GetDirectories(dirProjeto);
+            foreach (var pasta in pastas) {
+                Console.WriteLine(pasta);
+
+            }
+
+            Console.WriteLine("\n\n== Raiz ===========");
+            Console.WriteLine(Directory.GetDirectoryRoot(novoDir));
+
+
+            Directory.Move(novoDir, novoDirDestino); 
+
+
         }
     }
 }

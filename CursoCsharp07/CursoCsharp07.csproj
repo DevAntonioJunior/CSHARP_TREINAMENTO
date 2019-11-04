@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Topico\" />
+  </ItemGroup>
+
 </Project>
