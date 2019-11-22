@@ -7,7 +7,9 @@ using CursoCsharp07.Colecao;
 using CursoCsharp07.OO;
 using CursoCsharp07.MettodoseFuncoes; 
 using CursoCsharp07.Excecoes; 
-using CursoCsharp07.Api; 
+using CursoCsharp07.Api;
+using CursoCsharp07.Topico;
+
 
 
 namespace CursoCSharp
@@ -105,8 +107,9 @@ namespace CursoCSharp
                 { " Exemplo Date time- Usando API",ExemploDateTime.Executar },
                 { " Exemplo Time Span- Usando API",ExemploTimeSpan.Executar },
 
-                // LINQ
-                { " - Usando API",ExemploTimeSpan.Executar },
+                // Topicos Avançados LINQ
+                { "LINK #01 - Topicos Avançados",ExemploLinq.Executar }
+                
                 
 
 
