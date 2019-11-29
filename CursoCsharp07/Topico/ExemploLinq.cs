@@ -4,13 +4,17 @@ using System.Linq;
 
 namespace CursoCsharp07.Topico
 {
+    class Aluno
+    {
+        public string Nome;
+        public int Idade;
+        public double Nota;
+    }
+
+
     class ExemploLinq
     {
-        public class Aluno {
-            public string Nome;
-            public int Idade; 
-            public double Nota; 
-        }
+       
         public static void Executar (){
             var alunos = new List<Aluno> {
                 new Aluno() {Nome = "Pedro", Idade = 26 , Nota = 8.3 },

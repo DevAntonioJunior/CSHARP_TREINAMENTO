@@ -88,14 +88,14 @@ namespace CursoCSharp
                 // Metodos e Funçoes 
                 { " Exemplo Lambda - Metodos e Funçoes",ExLambida.Executar},
                 { " Delegate com Lambda - Metodos e Funçoes",LambdaDelegate.Executar},
-                { " Delegate  - Metodos e Funçoes",UsandoDelegates.Executar}, 
+                { " Delegate  - Metodos e Funçoes",UsandoDelegates.Executar},
                 { " Delegate como funcao anonima- Metodos e Funçoes",DelegateFuncAnonima.Executar},
                 { " Delegate como Parametro - Metodos e Funçoes",DelegateComoParametro.Executar},
                 { " Metodos de Extensao- Metodos e Funçoes",MetodosDeExtensao.Executar },
               
                 
                 //Excecao
-                { " Primeira Excecao - Excecoes",PrimeiraExcecao.Executar }, 
+                { " Primeira Excecao - Excecoes",PrimeiraExcecao.Executar },
                 { " Excecao Personalizada - Excecoes",ExcecaoPersonalizada.Executar },
                 //Api
                 { " Primeiro Arquivo - Usando API",PrimeiroArquivo.Executar },
@@ -108,7 +108,8 @@ namespace CursoCSharp
                 { " Exemplo Time Span- Usando API",ExemploTimeSpan.Executar },
 
                 // Topicos Avançados LINQ
-                { "LINK #01 - Topicos Avançados",ExemploLinq.Executar }
+                { "LINK #01 - Topicos Avançados",ExemploLinq.Executar },
+                { "LINK #02 - Topicos Avançados",ExemploLINQ2.Executar }
                 
                 
 
