@@ -110,7 +110,8 @@ namespace CursoCSharp
                 // Topicos Avançados LINQ
                 { "LINK #01 - Topicos Avançados",ExemploLinq.Executar },
                 { "LINK #02 - Topicos Avançados",ExemploLINQ2.Executar },
-                { "Nullables - Topicos Avançados",Nullables.Executar }
+                { "Nullables - Topicos Avançados",Nullables.Executar },
+                { "Dynamics - Topicos Avançados",Dynamics.Executar },
                 
                 
 
